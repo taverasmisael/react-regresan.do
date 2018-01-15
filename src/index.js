@@ -12,6 +12,6 @@ registerServiceWorker();
 
 WebFont.load({
   google: {
-    families: ['Roboto:300,400:500', 'sans-serif']
+    families: ['Roboto:300,400,500', 'sans-serif']
   }
 })
