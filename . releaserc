@@ -1,0 +1,4 @@
+{
+  "generateNotes": {},
+  "publish": ["@semantic-release/github"]
+}
