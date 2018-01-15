@@ -19,6 +19,7 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
     "react-test-renderer": "^16.2.0",
+    "semantic-release": "^12.2.2",
     "webfontloader": "^1.6.28"
   },
   "scripts": {
@@ -28,7 +29,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "semantic-release": "semantic-release"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
