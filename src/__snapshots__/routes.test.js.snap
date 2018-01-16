@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`routes rendering matches snapshot 1`] = `
+<Component>
+  <Switch>
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/login"
+    />
+    <PrivateRoute
+      canActivate={[Function]}
+      component={[Function]}
+      path="/admin"
+    />
+    <Route
+      component={[Function]}
+    />
+  </Switch>
+</Component>
+`;
