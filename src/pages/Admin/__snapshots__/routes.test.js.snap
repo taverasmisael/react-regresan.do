@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages/Admin/routes rendering matches snapshot 1`] = `
+<Switch>
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/admin"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/admin/branches"
+  />
+  <Redirect
+    push={false}
+    to="/admin"
+  />
+</Switch>
+`;

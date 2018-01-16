@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages/Home rendering matches snapshot 1`] = `
+<React.Fragment>
+  <WithStyles(Button)
+    color="primary"
+    onClick={[Function]}
+    raised={true}
+  >
+    Login
+  </WithStyles(Button)>
+</React.Fragment>
+`;
