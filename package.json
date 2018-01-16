@@ -47,7 +47,9 @@
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
       "!**/registerServiceWorker.js",
-      "!**/setupTests.js"
+      "!**/setupTests.js",
+      "!**/index.js",
+      "!src/styles.js"
     ]
   },
   "devDependencies": {
