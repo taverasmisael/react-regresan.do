@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/Typography/PageTitle rendering matches snapshot 1`] = `<PageTitle />`;
+
+exports[`components/Typography/PageTitle rendering matches snapshot 2`] = `
+<PageTitle>
+  Hello World
+</PageTitle>
+`;
