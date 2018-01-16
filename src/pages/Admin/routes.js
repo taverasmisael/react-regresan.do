@@ -14,7 +14,7 @@ const Routes = ({ base = '/admin' }) => (
 )
 
 Routes.propTypes = {
-  base: PropTypes.string.isRequired
+  base: PropTypes.string
 }
 
 export default Routes

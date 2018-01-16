@@ -5,9 +5,6 @@ import Typography from 'material-ui/Typography'
 
 import Routes from './routes'
 export default class AdminPage extends PureComponent {
-  static propTypes = {
-    prop: PropTypes.any
-  }
 
   render() {
     return (
