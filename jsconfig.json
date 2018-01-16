@@ -3,6 +3,9 @@
     "experimentalDecorators": true,
     "target": "es5",
   },
+  "typeAcquisition": {
+    "include": ["jest"]
+  },
   "include": [
     "./**/*.js"
   ]

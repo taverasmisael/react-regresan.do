@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages/404 rendering matches snapshot 1`] = `
+<React.Fragment>
+  <h1>
+    Not Found
+  </h1>
+  <WithStyles(Button)
+    color="primary"
+    onClick={[Function]}
+    raised={true}
+  >
+    Login
+  </WithStyles(Button)>
+</React.Fragment>
+`;

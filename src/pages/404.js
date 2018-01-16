@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import Button from 'material-ui/Button'
 
-export default class HomePage extends PureComponent {
+export default class NotFoundPage extends PureComponent {
   static propTypes = {
     prop: PropTypes.any
   }
@@ -12,6 +12,7 @@ export default class HomePage extends PureComponent {
   render() {
     return (
       <React.Fragment>
+        <h1>Not Found</h1>
         <Button onClick={this.goLogin} raised color="primary">
           Login
         </Button>

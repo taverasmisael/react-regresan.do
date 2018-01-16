@@ -1,17 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import WebFont from 'webfontloader'
 
-import Home from './pages/Home';
+import Routes from './routes'
+
 import registerServiceWorker from './utils/registerServiceWorker';
 
-import 'minireset.css'
+import './styles'
 
-ReactDOM.render(<Home />, document.getElementById('root'));
+ReactDOM.render(<Routes />, document.getElementById('root'));
 registerServiceWorker();
-
-WebFont.load({
-  google: {
-    families: ['Roboto:300,400,500', 'sans-serif']
-  }
-})
