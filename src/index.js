@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import WebFont from 'webfontloader'
 
-import Home from './pages/Home';
 import registerServiceWorker from './utils/registerServiceWorker';
 
 import 'minireset.css'
 
-ReactDOM.render(<Home />, document.getElementById('root'));
+import Routes from './routes'
+
+ReactDOM.render(<Routes />, document.getElementById('root'));
 registerServiceWorker();
 
 WebFont.load({
