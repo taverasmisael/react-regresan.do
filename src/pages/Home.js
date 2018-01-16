@@ -1,12 +1,21 @@
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import Typography from 'material-ui/Typography'
+import Button from 'material-ui/Button'
+
 export default class HomePage extends PureComponent {
   static propTypes = {
     prop: PropTypes.any
   }
 
+  goLogin = () => this.props.history.push('/login')
+
   render() {
-    return <Typography type="body1">Home</Typography>
+    return (
+      <React.Fragment>
+        <Button onClick={this.goLogin} raised color="primary">
+          Login
+        </Button>
+      </React.Fragment>
+    )
   }
 }
