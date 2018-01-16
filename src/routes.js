@@ -9,7 +9,7 @@ const Routes = () => (
     <React.Fragment>
       <Route exact path="/" component={HomePage} />
       <Route exact path="/login" component={LoginPage} />
-      <PrivateRoute exact path="/admin" component={AdminPage} />
+      <PrivateRoute path="/admin" component={AdminPage} />
     </React.Fragment>
   </Router>
 )
