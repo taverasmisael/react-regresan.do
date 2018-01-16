@@ -9,7 +9,7 @@ const Routes = () => (
     <Switch>
       <Route exact path="/" component={HomePage} />
       <Route exact path="/login" component={LoginPage} />
-      <PrivateRoute path="/admin" component={AdminPage} />
+      <PrivateRoute path="/admin" component={AdminPage} canActivate={() => false} />
       <Route component={NotFoundPage} />
     </Switch>
   </Router>
