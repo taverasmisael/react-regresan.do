@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Branding Palette matches brand colors 1`] = `
+Object {
+  "100": "#b3e4e3",
+  "200": "#80d2d1",
+  "300": "#4dbfbf",
+  "400": "#26b2b1",
+  "50": "#e0f4f4",
+  "500": "#00a4a3",
+  "600": "#009c9b",
+  "700": "#009291",
+  "800": "#008988",
+  "900": "#007877",
+  "A100": "#a6fffe",
+  "A200": "#73fffe",
+  "A400": "#40fffd",
+  "A700": "#26fffd",
+  "error": "#FF5252",
+}
+`;
